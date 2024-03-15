@@ -1,0 +1,459 @@
+{
+  "project_info": {
+    "project_number": "458720174344",
+    "firebase_url": "https://buzup-896cc-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "buzup-896cc",
+    "storage_bucket": "buzup-896cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:7800f7c83e95d04957ccbd",
+        "android_client_info": {
+          "package_name": "com.buzupp.moncv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-lq00r0nmv6ksfr37rg5k91bcndo9vlu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.buzupp.moncv",
+            "certificate_hash": "2fdd3d819781ea6f2afd2ac95be082856695da8c"
+          }
+        },
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:c100762d04a7958c57ccbd",
+        "android_client_info": {
+          "package_name": "com.rabfilsconception.ousuis_je"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-v6anje30l13q3c13ljvamndgect9mgis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabfilsconception.ousuis_je",
+            "certificate_hash": "ea4bcd43bbe95f8fca1e03f4582ceb8ed4661ce7"
+          }
+        },
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:d12697656e644e8657ccbd",
+        "android_client_info": {
+          "package_name": "com.rabtechmobile.annuaire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:f9a557bb0c27ad4157ccbd",
+        "android_client_info": {
+          "package_name": "com.rabtechmobile.boutiquier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-jv30bvtokiifuen0pf1kcb6dfncr0cfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.boutiquier",
+            "certificate_hash": "ea4bcd43bbe95f8fca1e03f4582ceb8ed4661ce7"
+          }
+        },
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:c3caeb12370705f157ccbd",
+        "android_client_info": {
+          "package_name": "com.rabtechmobile.buzup.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:f174b5d582f0340f57ccbd",
+        "android_client_info": {
+          "package_name": "com.rabtechmobile.buzup.flashnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:224253768156f56c57ccbd",
+        "android_client_info": {
+          "package_name": "com.rabtechmobile.buzup_business"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-v28fbjhnu7sj8pla70o7b3vcrfc14a6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.buzup_business",
+            "certificate_hash": "ea4bcd43bbe95f8fca1e03f4582ceb8ed4661ce7"
+          }
+        },
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:60763acf481d98e657ccbd",
+        "android_client_info": {
+          "package_name": "com.rabtechmobile.buzup_school"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:b1fd9a438b17d03057ccbd",
+        "android_client_info": {
+          "package_name": "com.rabtechmobile.buzuppro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-6mm4j9me3lbn29mqhua6acg41of7pkag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.buzuppro",
+            "certificate_hash": "275081fcfef8991971f963f8d42ad5b5f223ce9a"
+          }
+        },
+        {
+          "client_id": "458720174344-9ggq41a20v4aehhp493nigm0g35l74hv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.buzuppro",
+            "certificate_hash": "d50c42f2a1fa9e5c36f616a07c7ace547075cfcf"
+          }
+        },
+        {
+          "client_id": "458720174344-bf4jt0dc3rk1kdqb8fmp999h0dm439bf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.buzuppro",
+            "certificate_hash": "c34dac749a68787e15d5c2f4f897101102de6ad4"
+          }
+        },
+        {
+          "client_id": "458720174344-emriiitncbun2rm25jep0itilk26ubh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.buzuppro",
+            "certificate_hash": "ea4bcd43bbe95f8fca1e03f4582ceb8ed4661ce7"
+          }
+        },
+        {
+          "client_id": "458720174344-j5l92iacfdgu44njigtjif1l29pbecbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.buzuppro",
+            "certificate_hash": "88058036fb13a5c63e51227a9e5bf6089535cc97"
+          }
+        },
+        {
+          "client_id": "458720174344-n6f2mq99nhrn29mvi6squ4vnl9nrmr8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.buzuppro",
+            "certificate_hash": "a9f598e03d33d19722ca919b1db8353de8529f73"
+          }
+        },
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458720174344:android:c3d3bb57f029f6cd57ccbd",
+        "android_client_info": {
+          "package_name": "com.rabtechmobile.eglizier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458720174344-r0de25nmhtg9j36bpu70qvc3tkrttgo4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabtechmobile.eglizier",
+            "certificate_hash": "a9f598e03d33d19722ca919b1db8353de8529f73"
+          }
+        },
+        {
+          "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8Ja2oKzJZCvq1xxYdKJNpPazJRa2b_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458720174344-71djfu623pmqeeem0v988kodhi1i7nau.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "458720174344-1ggip11g9an0dh03rt0loujg1a1jamsk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.exit.name"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

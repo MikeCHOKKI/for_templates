@@ -1,0 +1,205 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "buzuppro",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "buzuppro (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "buzuppro (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "annuaire",
+            "cwd": "packages\\annuaire",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "annuaire (profile mode)",
+            "cwd": "packages\\annuaire",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "annuaire (release mode)",
+            "cwd": "packages\\annuaire",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "core",
+            "cwd": "packages\\core",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "core (profile mode)",
+            "cwd": "packages\\core",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "core (release mode)",
+            "cwd": "packages\\core",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "eglizier",
+            "cwd": "packages\\eglizier",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "eglizier (profile mode)",
+            "cwd": "packages\\eglizier",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "eglizier (release mode)",
+            "cwd": "packages\\eglizier",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "emedia",
+            "cwd": "packages\\emedia",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "emedia (profile mode)",
+            "cwd": "packages\\emedia",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "emedia (release mode)",
+            "cwd": "packages\\emedia",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "eservice_prive",
+            "cwd": "packages\\eservice_prive",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "eservice_prive (profile mode)",
+            "cwd": "packages\\eservice_prive",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "eservice_prive (release mode)",
+            "cwd": "packages\\eservice_prive",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "espace_entreprise",
+            "cwd": "packages\\espace_entreprise",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "espace_entreprise (profile mode)",
+            "cwd": "packages\\espace_entreprise",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "espace_entreprise (release mode)",
+            "cwd": "packages\\espace_entreprise",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "event",
+            "cwd": "packages\\event",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "event (profile mode)",
+            "cwd": "packages\\event",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "event (release mode)",
+            "cwd": "packages\\event",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "forms",
+            "cwd": "packages\\forms",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "forms (profile mode)",
+            "cwd": "packages\\forms",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "forms (release mode)",
+            "cwd": "packages\\forms",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "schools",
+            "cwd": "packages\\schools",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "schools (profile mode)",
+            "cwd": "packages\\schools",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "schools (release mode)",
+            "cwd": "packages\\schools",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

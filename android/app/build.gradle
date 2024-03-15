@@ -1,0 +1,195 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.google.gms.google-services'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 33
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.rabtechmobile.buzuppro"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
+        minSdkVersion 23
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+    }
+    signingConfigs {
+        buzup {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+        ou_suis_je_config{
+            keyAlias keystoreProperties['aliasOuSuisJeKey']
+            keyPassword keystoreProperties['mpAliasOuSuisJeKey']
+            storeFile keystoreProperties['cheminOuSuisJeKey'] ? file(keystoreProperties['cheminOuSuisJeKey']) : null
+            storePassword keystoreProperties['mpCheminOuSuisJeKey']
+        }
+    }
+//    buildTypes {
+////        release {
+////            signingConfig signingConfigs.release
+////        }
+//        ou_suis_je_type {
+//            signingConfig signingConfigs.ou_suis_je_config
+//        }
+//    }
+    flavorDimensions "app"
+    productFlavors {
+        global {
+            dimension "app"
+            applicationId "com.rabtechmobile.buzuppro"
+            versionCode 47
+            versionName "2.0.0"
+            signingConfig signingConfigs.buzup
+
+        }
+        flash_note {
+            dimension "app"
+            applicationId "com.rabtechmobile.buzup.flashnote"
+            versionCode 1
+            versionName "1.0.0"
+            signingConfig signingConfigs.buzup
+        }
+        business {
+            dimension "app"
+            applicationId "com.rabtechmobile.buzup_business"
+            versionCode 29
+            versionName "2.0.0"
+            signingConfig signingConfigs.buzup
+        }
+        boutiquier {
+            dimension "app"
+            applicationId "com.rabtechmobile.boutiquier"
+            versionCode 1
+            versionName "1.0.0"
+            signingConfig signingConfigs.buzup
+        }
+
+        ou_suis_je {
+            dimension "app"
+            applicationId "com.rabfilsconception.ousuis_je"
+            versionCode 13
+            versionName "1.0.0"
+            signingConfig signingConfigs.ou_suis_je_config
+        }
+        moncv {
+            dimension "app"
+            applicationId "com.buzupp.moncv"
+            versionCode 1
+            versionName "1.0.0"
+        }
+        vafi {
+            dimension "app"
+            applicationId "com.buzupp.vafi"
+            versionCode 1
+            versionName "1.0.0"
+        }
+        /*global {
+            dimension "app"
+            applicationId "com.rabtechmobile.buzup.app"
+            versionCode 29
+            versionName "2.0.0"
+        }
+        business {
+            dimension "app"
+            applicationId "com.rabtechmobile.buzup_business"
+            versionCode 29
+            versionName "2.0.0"
+        }
+        vote {
+            dimension "app"
+            applicationId "com.rabtechmobile.vote_en_ligne"
+            versionCode 1
+            versionName "1.0.0"
+        }
+
+        school {
+            dimension "app"
+            applicationId "com.rabtechmobile.buzup_school"
+            versionCode 4
+            versionName "1.0.3"
+        }
+        eglizier {
+            dimension "app"
+            applicationId "com.rabtechmobile.eglizier"
+            versionCode 3
+            versionName "1.0.2"
+        }
+        pwa {
+            dimension "app"
+            applicationId "com.rabtechmobile.annuaire"
+            versionCode 3
+            versionName "1.0.2"
+        }
+        vote {
+            dimension "app"
+            applicationId "com.rabtechmobile.vote"
+            versionCode 3
+            versionName "1.0.0"
+        }*/
+    }
+
+
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:31.2.0')
+    // Add the dependency for the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.android.support:multidex:2.0.1'
+}
